@@ -2,7 +2,7 @@ import Profile from "./Component/Profile";
 
 function App(){
   return(
-  <div>
+  <div className="file"> 
     <Profile/>
     <Profile/>
   </div>

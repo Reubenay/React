@@ -1,6 +1,6 @@
 function Profile() {
   return (
-    <>
+    <div className="profile">
       <img
         src="https://i.pinimg.com/736x/53/50/f9/5350f978cc77ba500ba9899d24139cd7.jpg"
         alt="fine boy in Yellow"
@@ -11,7 +11,7 @@ function Profile() {
         i am a passionate artificial intelligence developer with expertise in
         automation
       </p>
-    </>
+    </div>
   );
 }
 

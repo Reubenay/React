@@ -30,6 +30,20 @@ h1 {
 
 img{
   border-radius: 50%;
+  width: 20%;
+  align-items: center;
+  align-content: center;
 }
-
+.profile{
+  align-content: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(87, 56, 19);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.file{
+  display: flex;
+}
 

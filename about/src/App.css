@@ -5,6 +5,9 @@ body {
   background-color: #f4f6f8;
   color: #2c3e50;
 }
+.Header.p{
+  text-align: center;
+}
 
 div {
   max-width: 800px;
@@ -18,13 +21,15 @@ div {
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
-  color: #0c630c;
+  color: #15a815;
+  text-align: center;
 }
 
 p {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 h3 {
@@ -37,12 +42,14 @@ h3 {
 ul {
   padding-left: 20px;
   margin-top: 10px;
+   text-align: left;
 }
 
 li {
   font-size: 16px;
   margin-bottom: 6px;
   color: #555555;
+  text-align: left;
 }
 
 a {
@@ -52,15 +59,40 @@ a {
 }
 
 a:hover {
-  color: #0c630c;
+  color: #13d413;
   text-decoration: underline;
 }
-
+.Skills{
+  text-align: left
+}
 .Footer {
+  background-color: #0c630c;
+  margin-left: solid 2px red;
   margin-top: 40px;
   padding-top: 20px;
   border-top: 1px solid #dddddd;
   font-size: 14px;
-  color: #ebe5e5;
+  color: #edf8f1;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.Header {
+  background-color: #0c630c;
+  margin-left: solid 2px red;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #dddddd;
+  font-size: 14px;
+  color: #edf8f1;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+.Header.p{
+  text-align: center;
+}
+.Location{
+  text-align: left;
+}
+.g{
+  text-align: center;
+
 }
