@@ -1,0 +1,36 @@
+.state-card {
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.state-card:hover {
+  transform: scale(1.05);
+}
+
+.state-card.north {
+  background-color: #8B4513;
+}
+
+.state-card.south {
+  background-color: #008751;
+}
+
+.state-card.east {
+  background-color: #FFD700;
+  color: black; 
+}
+
+.state-card.west {
+  background-color: #4169E1;
+}
+
+.landmark {
+  margin-top: 10px;
+
+}
