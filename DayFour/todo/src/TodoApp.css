@@ -1,0 +1,132 @@
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(239, 248, 245);
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+
+.todo-app {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  color: #368039;
+  margin-bottom: 20px;
+}
+
+
+.todo-input {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 15px;
+ 
+}
+
+.todo-input input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  background: #269c24;
+ 
+}
+
+.todo-input button {
+  background: #43a047;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.todo-list li {
+  background: #136424;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.todo-list li:hover {
+  background: #1f9939;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: #edf2f7;
+}
+
+.todo-list li button {
+  background: none;
+  border: none;
+  color: #e53935;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.todo-list li button:hover {
+  transform: scale(1.2);
+}
+.todo-filter {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-filter p {
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.todo-filter button {
+  background: #22ac2d;
+  border: 2px solid none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background: #ef5350;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.clear-btn:hover {
+  background: #c62828;
+}
