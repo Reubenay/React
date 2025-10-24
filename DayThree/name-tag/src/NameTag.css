@@ -1,0 +1,71 @@
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+
+.name-tag-container {
+  background: #ffffff;
+  padding: 2rem;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+}
+
+
+.name-tag-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.preview-box {
+  background-color: #0c942a;
+  color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hello-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.name-text {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.title-text,
+.company-text {
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.download-btn {
+  margin-top: 1rem;
+  background-color: #1475c5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #045479;
+}
