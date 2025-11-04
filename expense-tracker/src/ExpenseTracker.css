@@ -4,13 +4,14 @@ body {
   min-height: 100vh;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   padding-top: 40px;
 }
 
 .expense-app {
-  background: #fff;
+  background: #ffffff;
   width: 600px;
   border-radius: 16px;
   padding: 30px;
@@ -146,4 +147,7 @@ body {
   text-align: center;
   color: #888;
   padding: 20px;
+}
+.expense-item{
+  border: #2e7d32 2px solid;
 }

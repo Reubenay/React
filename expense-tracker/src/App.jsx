@@ -7,11 +7,7 @@ import ExpenseList from "./ExpenseList";
 import "./ExpenseTracker.css";
 
 function App() {
-  const [expenses, setExpenses] = useState([
-    { id: 1, description: "Lunch at Mama Put", amount: 1500, category: "Food", date: "2025-10-22" },
-    { id: 2, description: "Bolt ride", amount: 1200, category: "Transport", date: "2025-10-21" },
-    { id: 3, description: "Netflix subscription", amount: 4000, category: "Entertainment", date: "2025-10-20" },
-  ]);
+  const [expenses, setExpenses] = useState([]);
 
   const [filter, setFilter] = useState("All");
 
