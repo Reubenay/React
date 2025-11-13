@@ -1,4 +1,4 @@
-import Button from "./Components/Button"; // Adjust path if needed
+import Button from "./Components/Button"; 
 
 function App() {
   return (
